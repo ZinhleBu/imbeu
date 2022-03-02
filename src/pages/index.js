@@ -33,7 +33,21 @@ export default function Home({ posts, pagination }) {
           }}
         />
       </Header>
+      <Section>
+        <img src="/public/images/og/pexels-photo-401213.jpg" alt="" />
+        <Container>
+      <div >
+        <h2>About us</h2>
+          </div>
+          <div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur aut temporibus nesciunt. Nesciunt eligendi quidem consequatur nemo error quam?
+            
+            </p>
+          </div>
+          </Container>
 
+          </Section>
       <Section>
         <Container>
           <h2 className="sr-only">Posts</h2>
@@ -46,6 +60,7 @@ export default function Home({ posts, pagination }) {
               );
             })}
           </ul>
+          
           {pagination && (
             <Pagination
               addCanonical={false}

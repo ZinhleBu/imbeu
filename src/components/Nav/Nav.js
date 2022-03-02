@@ -181,6 +181,7 @@ const Nav = () => {
         <p className={styles.navName}>
           <Link href="/">
             <a>{title}</a>
+            
           </Link>
         </p>
         <ul className={styles.navMenu}>
